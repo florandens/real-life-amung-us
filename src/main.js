@@ -3,13 +3,13 @@ import { getDatabase, ref, set, onValue } from "firebase/database";
 
 // Firebase setup
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB53VMFobs85t3RDhuUbSu-cuMa1WfLU1I",
+  authDomain: "amongus-keypad.firebaseapp.com",
+  projectId: "amongus-keypad",
+  storageBucket: "amongus-keypad.firebasestorage.app",
+  messagingSenderId: "423442843433",
+  appId: "1:423442843433:web:6ad65f08602f11d75ed938",
+  measurementId: "G-MMWG4R9TTC"
 };
 
 const app = initializeApp(firebaseConfig);
