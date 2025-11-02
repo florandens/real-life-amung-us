@@ -1,0 +1,15 @@
+{
+  "name": "amongus-keypad",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^10.5.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
